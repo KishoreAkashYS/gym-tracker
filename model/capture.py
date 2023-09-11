@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 from .type_exercise import TypeOfExercise
 
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(-1)
 
 mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
